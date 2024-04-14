@@ -39,9 +39,9 @@ npm start
 
 This command will start the development server, usually accessible via `http://localhost:8800` or a similar URL provided in the terminal.
 
-### 4. Clone and Setup the Messenger Server
+### 4. Clone and Setup the Socket Server
 
-In addition to this main application, which is a server that serves the chat history, conversations, and messages you need to set up the Socket server, which resides in a different repository. Clone the Messenger server repository and navigate to it:
+In addition to this main application, which is a server that serves the chat history, conversations, and messages you need to set up the Socket server, which resides in a different repository. Clone the Socket server repository and navigate to it:
 
 ```bash
 git clone https://github.com/shubhamiu/Socket.git
