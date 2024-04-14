@@ -17,8 +17,8 @@ Follow these steps to get the project up and running on your local machine for d
 First, clone the main application repository to your local machine using the following command:
 
 ```bash
-git clone https://github.com/your-username/your-repository.git
-cd your-repository
+git clone https://github.com/shubhamiu/Messenger-server.git
+cd Messenger-server
 ```
 
 ### 2. Install Dependencies
@@ -41,10 +41,10 @@ This command will start the development server, usually accessible via `http://l
 
 ### 4. Clone and Setup the Messenger Server
 
-In addition to the main application, you need to set up the Messenger server, which resides in a different repository. Clone the Messenger server repository and navigate to it:
+In addition to the main application, you need to set up the Socket server, which resides in a different repository. Clone the Messenger server repository and navigate to it:
 
 ```bash
-git clone https://github.com/shubhamiu/Messenger-server.git
+git clone https://github.com/shubhamiu/Socket.git
 ```
 
 ### 5. Install Dependencies for the Messenger Server
