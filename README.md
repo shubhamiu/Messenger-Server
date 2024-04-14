@@ -2,7 +2,7 @@
 
 
 
-This README provides instructions on how to set up and run the project. .
+This README provides instructions on how to set up and run the project. The Setup is divided into 2 parts which are setting up the messenger server and setting up the Socket server
 
 ## Prerequisites
 
