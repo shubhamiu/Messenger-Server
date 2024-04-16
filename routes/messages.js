@@ -14,6 +14,19 @@ router.post("/", async (req, res) => {
   }
 });
 
+router.put("/", async (req, res) => {
+
+  try {
+  const result = await Message.updateMany(
+      { conversationId: req.body.conversationId, seen: req.body.seen },
+      { $set: { seen: true } }  // Correct usage of $set in an update
+    );
+    res.status(200).json(result); 
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
 //get
 
 router.get("/:conversationId", async (req, res) => {
